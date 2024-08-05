@@ -1,0 +1,3 @@
+(executable
+ (public_name guessing_game)
+ (name main))
