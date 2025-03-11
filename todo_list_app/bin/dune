@@ -1,0 +1,4 @@
+(executable
+ (public_name todo_list_app)
+ (name main)
+ (libraries todo_list_app yojson))

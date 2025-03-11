@@ -1,0 +1,11 @@
+opam-version: "2.0"
+synopsis: "/home/dinakajoy/Desktop/OCaml/learning_ocaml/todo_list_app"
+opam-root: "/home/dinakajoy/.opam"
+invariant: ["ocaml-base-compiler" {= "5.1.0"} | "ocaml-system" {= "5.1.0"}]
+paths {
+  
+}
+variables {
+  user: "dinakajoy"
+  group: "dinakajoy"
+}
