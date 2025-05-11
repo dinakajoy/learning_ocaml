@@ -1,7 +1,0 @@
-OPAM_SWITCH_PREFIX	=	/home/dinakajoy/Desktop/OCaml/learning_ocaml/todo_list_app/_opam	Prefix\ of\ the\ current\ opam\ switch
-CAML_LD_LIBRARY_PATH	=	/home/dinakajoy/Desktop/OCaml/learning_ocaml/todo_list_app/_opam/lib/stublibs	Updated\ by\ package\ ocaml-base-compiler
-CAML_LD_LIBRARY_PATH	=	/home/dinakajoy/Desktop/OCaml/learning_ocaml/todo_list_app/_opam/lib/ocaml/stublibs:/home/dinakajoy/Desktop/OCaml/learning_ocaml/todo_list_app/_opam/lib/ocaml	Updated\ by\ package\ ocaml
-CAML_LD_LIBRARY_PATH	+=	/home/dinakajoy/Desktop/OCaml/learning_ocaml/todo_list_app/_opam/lib/stublibs	Updated\ by\ package\ ocaml
-OCAML_TOPLEVEL_PATH	=	/home/dinakajoy/Desktop/OCaml/learning_ocaml/todo_list_app/_opam/lib/toplevel	Updated\ by\ package\ ocaml
-MANPATH	=:	/home/dinakajoy/Desktop/OCaml/learning_ocaml/todo_list_app/_opam/man	Current\ opam\ switch\ man\ dir
-PATH	=+=	/home/dinakajoy/Desktop/OCaml/learning_ocaml/todo_list_app/_opam/bin	Binary\ dir\ for\ opam\ switch\ /home/dinakajoy/Desktop/OCaml/learning_ocaml/todo_list_app

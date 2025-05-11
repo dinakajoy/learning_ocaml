@@ -7,9 +7,9 @@
 (source
  (github username/reponame))
 
-(authors "Author Name")
+(authors "Odinaka Joy")
 
-(maintainers "Maintainer Name")
+(maintainers "Odinaka Joy")
 
 (license LICENSE)
 
@@ -17,7 +17,7 @@
 
 (package
  (name cli_calculator)
- (synopsis "A short synopsis")
+ (synopsis "A simple cli calculator")
  (description "A longer description")
  (depends ocaml dune)
  (tags

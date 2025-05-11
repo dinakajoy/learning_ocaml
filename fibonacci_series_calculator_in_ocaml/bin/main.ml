@@ -1,8 +1,8 @@
 (* Function to calculate the Fibonacci series up to n *)
 let fibonacci n =
-  if n <= 0 then [0]
-  else if n = 1 then [1; 0]
-  else if n = 2 then [1; 1; 0]
+  if n <= 0 then []
+  else if n = 1 then [1]
+  else if n = 2 then [1; 1]
   else 
     let rec fib n b fib_count =
       if fib_count = n then List.rev b
@@ -14,7 +14,7 @@ let fibonacci n =
         fib n new_list new_count
       | _ -> b
     in
-    fib n [1; 1; 0] 2
+    fib n [1; 1] 2
 
 let () =
   print_string "Enter the whole number of Fibonacci numbers to generate: ";
