@@ -1,8 +1,8 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "Todo 1",
     "description": "Todo 1",
-    "completed": false
+    "completed": true
   }
 ]
