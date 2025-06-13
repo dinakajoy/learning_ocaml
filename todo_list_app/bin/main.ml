@@ -82,7 +82,7 @@ let mark_task_completed filename id =
       print_endline ("Task with ID " ^ id ^ " marked as completed.")
   | _ -> print_endline "Invalid JSON format"
 
-  (* let remove_todo () = "Removed"m*)
+(* let remove_todo () = "Removed"m*)
 let delete_task filename id =
   let json = read_json filename in
   match json with
@@ -140,8 +140,8 @@ let () =
   print_endline "To-Do List CLI App";
   print_endline "To add new task, enter 1: ";
   print_endline "To view all tasks, enter 2: ";
-  print_endline "to view a task by id, enter 3: ";
-  print_endline "to view completed tasks, enter 4: ";
+  print_endline "To view a task by id, enter 3: ";
+  print_endline "To view completed tasks, enter 4: ";
   print_endline "To view pending tasks, enter 5: ";
   print_endline "To mark a task as completed, enter 6: ";
   print_endline "To delete a task, enter 7: ";
